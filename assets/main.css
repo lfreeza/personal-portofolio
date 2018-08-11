@@ -1,0 +1,113 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+p{
+  font-size: 14px;
+}
+
+h1{
+  font-size: 25px;
+}
+
+h1 ~ h2{
+  font-size: 18px;
+}
+
+#navbar{
+  position: fixed;
+  top: 0;
+  height: 50px;
+  text-align: center;
+  width: 100%;
+  background-color:black;
+  vertical-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+}
+
+#navbar > ul {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  float:right;
+  height: 100%;
+  
+  vertical-align: center;
+  
+}
+
+#navbar-list li {
+  display: block;
+  height: 50px;
+  float: left;
+ 
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: center;
+}
+
+#navbar-list li:hover{
+  background-color: white;
+} 
+
+#navbar-list a{
+  display: block;
+  padding: 14px 16px;
+  color: white;
+}
+
+#navbar-list a:hover{
+  color: black;
+}
+
+#navbar-list:first-child{
+  text-decoration: none;
+}
+
+#navbar-list:last-child{
+  text-decoration: none;
+}
+
+.home{
+  margin: 0;
+  background-image:url(https://pixabay.com/get/e837b5092dfd013ed1584d05fb0938c9bd22ffd41cb2124890f0c270a3/stars-1246590_1280.jpg);
+  height: 100vh;
+  color: white;
+  vertical-align: center;
+  text-align: center;
+  padding-top: 30%;
+}
+
+.home img{
+  width: 100px;
+  height: 100px;
+}
+
+.home h2{
+  margin-bottom: 20px;
+}
+.home a{
+  margin:20px;
+  background-color: gold;
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.home a:hover{
+  background-color: white;
+  color: gold;
+}
+
+.home a:active{
+  transform:translateY(3px)
+}

@@ -83,7 +83,7 @@ a:hover{
 
 .home{
   margin: 0;
-  background-image:url(/assets/milkyway.jpg);
+  background-image:url(assets/milkyway.jpg);
   height: 100vh;
   color: white;
   vertical-align: middle;
